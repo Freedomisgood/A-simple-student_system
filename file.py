@@ -3,7 +3,7 @@ import json
 def createFile():
     stu= []
     try:
-        f = open('G:\\Py\\student_system\\student.txt','w')
+        f = open('G:\\Py\\student_system\\student.json','w')
     except :
         print('cannot open the file')
         exit()
@@ -15,7 +15,7 @@ def createFile():
 
 def readFile():
     try:
-        f = open('G:\\Py\\student_system\\student.txt', 'r')
+        f = open('G:\\Py\\student_system\\student.json', 'r')
     except FileNotFoundError as e:
         print(e)
         print('Create it now!')
@@ -28,7 +28,7 @@ def readFile():
 
 def saveFile(stu):
     try:
-        f = open('G:\\Py\\student_system\\student.txt', 'w')
+        f = open('G:\\Py\\student_system\\student.json', 'w')
     except:
         print('cannot open the file')
         exit()
@@ -37,6 +37,6 @@ def saveFile(stu):
         f.close()
 
 def actionsave(stu):
-    with open('G:\\Py\\student_system\\student.txt','w') as f:
+    with open('G:\\Py\\student_system\\student.json','w') as f:
         json.dump(stu, f)
 
