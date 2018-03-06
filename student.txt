@@ -1,0 +1,1 @@
+[{"num": 2, "name": "mrli", "sex": "B", "classnum": 3, "up": [{"3-4": "Y"}, {"3-5": "Y"} ]}, {"num": 4, "name": "hsr", "sex": "B", "classnum": 4, "up": [{"3-5": "N"}, {"3-6": "Y"}]}, {"num": 6, "name": "lcz", "sex": "B", "classnum": 3, "up": [{"3-5": "Y"}, {"3-6": "N"}]}, {"num": 3, "name": "gjq", "sex": "B", "classnum": 3, "up": [{"3-5": "Y"}, {"3-6": "N"}]}]
